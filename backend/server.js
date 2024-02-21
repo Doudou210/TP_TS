@@ -16,10 +16,10 @@ app.use(express());
 
 //connexion à la base de donnée
 const con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
+    host: "",
+    user: "",
     password: "",
-    database: "testPdf"
+    database: ""
 });
 con.connect(function(err) {
 if (err) throw err;
